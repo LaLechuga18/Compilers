@@ -22,7 +22,7 @@ private:
 
     inline char peek() {
         while (input[pos] && (input[pos] == ' ' || input[pos] == '\n' || 
-               input[pos] == '\r' || input[pos] == '\t')) pos++;
+                input[pos] == '\r' || input[pos] == '\t')) pos++;
         return input[pos];
     }
 
